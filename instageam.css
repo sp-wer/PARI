@@ -1,0 +1,80 @@
+body{
+    background: url("ins1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    background-color: white;
+    opacity: 0.7;
+    border: 1px solid #dbdbdb;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+}
+.first{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    position: relative;
+    bottom: 65%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second input{
+    background-color: #fafafa;
+    width: 258px;
+    padding: 9px 0px 7px 8px;
+    border: 1px solid #dbdbdb;
+    font-size: 15px;
+    border-radius: 3px;
+ }
+.second button{
+    background-color: blue;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    opacity: 0.3;
+    color: white;
+    width: 268px;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 14px;
+}
+.second span{
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+span p{
+    position: relative;
+    bottom: 5px;
+    color: #dbdbdb;
+}
+.fb{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.fb img{
+    width: 16px;
+    height: 16px;
+}
+h5{
+    color: #385185;
+}
+small{
+    font-size: 15px;
+    color: #00376b;
+}
+button:hover{
+    background-color: aqua;
+}
